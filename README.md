@@ -11,7 +11,7 @@
 	wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/install.sh && chmod +x changip.sh && ./changip.sh
 根据相关提示安装完毕即可，脚本会自动添加定时任务的。
 
-# TG机器人的申请如下
+# TG机器人的申请
 
 * TG_BOT_TOKEN的获取
 
@@ -23,6 +23,7 @@ telegram 中关注官方 @Botfather ，输入/newbot ，创建新的机器人（
 
 # 问题反馈
 [TG频道](https://t.me/mffjc)
+
 [TG群组](https://t.me/jcnfnatuo)
 ***
 
