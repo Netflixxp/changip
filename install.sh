@@ -11,7 +11,11 @@ wget -O /usr/local/bin/netflix.sh https://raw.githubusercontent.com/Netflixxp/ch
 
 echo -e "请输入服务器名称"
 read -erp "(默认: jcnf):" name
-[[ -z "$name" ]] && zoecloudname="jcnf"
+[[ -z "$name" ]] && name="jcnf"
+
+echo -e "请输入换IP的api http或https的地址"
+read -erp "(默认: null):" api
+[[ -z "$api" ]] && api="null"
 
 echo -e "请输入 Telegram Bot Token 前往TG@Botfather"
 read -erp "(默认: null):" bottoken
@@ -20,10 +24,6 @@ read -erp "(默认: null):" bottoken
 echo -e "请输入 Telegram Chat ID 前往TG@userinfobot"
 read -erp "(默认: null):" botchatid
 [[ -z "$botchatid" ]] && botchatid="null"
-
-echo -e "请输入换IP的api"
-read -erp "(默认: null):" api
-[[ -z "$api" ]] && api="null"
 
 echo -e "请输入检测频率"
 read -erp "(默认: 10):" crontime
