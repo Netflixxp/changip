@@ -93,10 +93,8 @@ function Terminate {
 }
 
 if [ "$1" == "1" ]; then
-    echo -e "[手动] ZoeCloud 定制版流媒体猴子 2.2"
-    echo -e "官网 https://zoecloud.cc"
-    echo -e "频道 https://t.me/zoecloud"
-    echo -e "群组 https://t.me/zoeclouds\n"
+    echo -e "[手动] "jcnf Netflix检测自动换ip 1.01版"
+    echo -e "频道 https://t.me/mffjc\n"  
     FirstNetflixResult="Originals Only"
     FirstGoogle="CN"
     COUNT=1
