@@ -21,13 +21,13 @@ echo -e "请输入 Telegram Chat ID 前往TG@userinfobot"
 read -erp "(默认: null):" botchatid
 [[ -z "$botchatid" ]] && botchatid="null"
 
+echo -e "请输入换IP的api"
+read -erp "(默认: null):" api
+[[ -z "$api" ]] && api="null"
+
 echo -e "请输入检测频率"
 read -erp "(默认: 10):" crontime
 [[ -z "$crontime" ]] && crontime="10"
-
-echo -e "请输入换IP的api"
-read -erp "(默认: null):" bottoken
-[[ -z "$bottoken" ]] && bottoken="null"
 
 sed -i "s/name/$name/g" /usr/local/bin/netflix.sh
 sed -i "s/api/$api/g" /usr/local/bin/netflix.sh
