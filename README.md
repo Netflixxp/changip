@@ -5,8 +5,9 @@
 
 # 功能
 - 监控可换IP机器的IP是否被Netflix封了
-- 如果封了，自动通过主机商人提供的api更换ip
+- 如果封了，自动通过主机商提供的api更换ip
 - 更换结果通过TG发送通知
+- 更换后自动监测，如果还是被封，再次更换。
 # 如何使用
 	wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/install.sh && chmod +x changip.sh && ./changip.sh
 根据相关提示安装完毕即可，脚本会自动添加定时任务的。
