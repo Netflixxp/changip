@@ -2,7 +2,7 @@
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-echo -e "jcnf jcnf Netflix检测自动换ip 1.01版 一键安装"
+echo -e "jcnf Netflix检测自动换ip 1.00版 一键安装"
 echo -e "频道 https://t.me/mffjc\n"  
 
 localIP=$(ip -o -4 addr list | grep -Ev '\s(docker|lo)' | awk '{print $4}' | cut -d/ -f1 | grep -o "10.[0-9]\{1,3\}\.[0-9]\{1,3\}\.")
