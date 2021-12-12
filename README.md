@@ -11,11 +11,11 @@
 # 如何使用
 * 1.下载脚本
 
-        wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/changip.sh && chmod +x changip.sh
+	wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/changip.sh && chmod +x changip.sh
 
 * 2.修改changip.sh
 
-        vi changip.sh
+	vi changip.sh
 
 ```
 # NAME=自己定义，例如HKT,注意保留引号
