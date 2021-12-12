@@ -17,7 +17,8 @@
 
     vi netflix.sh
 
-```# NAME=自己定义，例如HKT,注意保留引号
+```
+# NAME=自己定义，例如HKT,注意保留引号
 NAME="HKT"
 
 # API=你更换IP的链接，每家不一样，自己替换，注意保留引号
