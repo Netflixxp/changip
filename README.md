@@ -9,8 +9,25 @@
 - 更换结果通过TG发送通知
 - 更换后自动监测，如果还是被封，再次更换。
 # 如何使用
-	wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/install.sh && chmod +x changip.sh && ./changip.sh
-根据相关提示安装完毕即可，脚本会自动添加定时任务的。
+* 1.下载脚本
+	wget -O netflix.sh https://raw.githubusercontent.com/Netflixxp/changip/main/netflix.sh && chmod +x netflix.sh
+
+* 2.修改netflix.sh
+	vi netflix.sh
+
+`# NAME=自己定义，例如HKT,注意保留引号`
+`NAME="HKT"`
+
+`# API=你更换IP的链接，每家不一样，自己替换，注意保留引号`
+`API="htts://"`
+
+`# TG_BOT_TOKEN=自行前往@Botfather获取,默认null`
+
+`TG_BOT_TOKEN=null`
+`# TG_CHATID=与机器人@userinfobot 对话,默认null`
+`TG_CHATID=null`
+
+
 
 # TG机器人的申请
 
