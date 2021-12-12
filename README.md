@@ -27,8 +27,8 @@ API="htts://"
 
 TG_BOT_TOKEN=null
 # TG_CHATID=与机器人@userinfobot 对话,默认null
-TG_CHATID=null```
-
+TG_CHATID=null
+```
 
 
 # TG机器人的申请
