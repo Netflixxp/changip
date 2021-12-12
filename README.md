@@ -10,22 +10,24 @@
 - 更换后自动监测，如果还是被封，再次更换。
 # 如何使用
 * 1.下载脚本
+
     wget -O netflix.sh https://raw.githubusercontent.com/Netflixxp/changip/main/netflix.sh && chmod +x netflix.sh
 
 * 2.修改netflix.sh
+
     vi netflix.sh
 
-`# NAME=自己定义，例如HKT,注意保留引号`
-`NAME="HKT"`
+```# NAME=自己定义，例如HKT,注意保留引号
+NAME="HKT"
 
-`# API=你更换IP的链接，每家不一样，自己替换，注意保留引号`
-`API="htts://"`
+# API=你更换IP的链接，每家不一样，自己替换，注意保留引号
+API="htts://"
 
-`# TG_BOT_TOKEN=自行前往@Botfather获取,默认null`
+# TG_BOT_TOKEN=自行前往@Botfather获取,默认null
 
-`TG_BOT_TOKEN=null`
-`# TG_CHATID=与机器人@userinfobot 对话,默认null`
-`TG_CHATID=null`
+TG_BOT_TOKEN=null
+# TG_CHATID=与机器人@userinfobot 对话,默认null
+TG_CHATID=null```
 
 
 
