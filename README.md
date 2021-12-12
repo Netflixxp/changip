@@ -1,20 +1,22 @@
 提示：小白不知道什么是动态IP服务器的就不要用了，动态IP是台湾的hinet，香港的hkt等。其他机器都是静态IP，是换不了IP的。
+***
 
 # changip 全自动流媒体解锁监控 猴子修改版
 一个可以监控Netflix被锁然后自动换IP的机器；仅对动态ip，通过api换ip的有效。脚本原作者为[yxkumad](https://github.com/yxkumad/streammonkeylite)。
+***
 
 # 功能
 - 监控可换IP机器的IP是否被Netflix封了
 - 如果封了，自动通过主机商提供的api更换ip
 - 更换结果通过TG发送通知
 - 更换后自动监测，如果还是被封，再次更换。
-# 如何使用
-* 1.下载脚本
+***
 
+# 如何使用
+1.下载脚本
 	wget -O changip.sh https://raw.githubusercontent.com/Netflixxp/changip/main/changip.sh && chmod +x changip.sh
 
-* 2.修改changip.sh
-
+2.修改changip.sh
 	vi changip.sh
 
 ```
@@ -30,14 +32,12 @@ TG_BOT_TOKEN=null
 # TG_CHATID=与机器人@userinfobot 对话,默认null
 TG_CHATID=null
 ```
-* 3.运行脚本一次
+3.运行脚本一次
+	./changip.sh
 
-        ./changip.sh
-
-* 4.设为定时任务
+4.设为定时任务
 输入 `crontab -e` 然后会弹出 vi 编辑界面，按小写字母 i 进入编辑模式，在文件里面添加一行：
-
-        */10 * * * * /root/changip.sh >/dev/null 2>&1
+	*/10 * * * * /root/changip.sh >/dev/null 2>&1
 
 # TG机器人的申请
 
