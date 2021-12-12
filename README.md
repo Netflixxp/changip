@@ -30,7 +30,12 @@ TG_BOT_TOKEN=null
 # TG_CHATID=与机器人@userinfobot 对话,默认null
 TG_CHATID=null
 ```
+* 3.运行脚本一次
+        ./changip.sh
 
+* 4.设为定时任务
+输入 `crontab -e` 然后会弹出 vi 编辑界面，按小写字母 i 进入编辑模式，在文件里面添加一行：
+        */10 * * * * /root/changip.sh >/dev/null 2>&1
 
 # TG机器人的申请
 
