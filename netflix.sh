@@ -2,10 +2,17 @@
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-NAME=""
-API=""
-TG_BOT_TOKEN=
-TG_CHATID=
+# NAME=自己定义，例如HKT,注意保留引号
+NAME="HKT"
+
+# API=你更换IP的链接，每家不一样，自己替换，注意保留引号
+API="htts://"
+
+# TG_BOT_TOKEN=自行前往@Botfather获取,默认null
+TG_BOT_TOKEN=null
+
+# TG_CHATID=与机器人@userinfobot 对话,默认null
+TG_CHATID=null
 COUNT=0
 SESSION=/usr/local/bin/.netflix_session
 UA_Browser="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36"
