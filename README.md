@@ -11,11 +11,11 @@
 # 如何使用
 * 1.下载脚本
 
-```wget -O netflix.sh https://raw.githubusercontent.com/Netflixxp/changip/main/netflix.sh && chmod +x netflix.sh```
+    wget -O netflix.sh https://raw.githubusercontent.com/Netflixxp/changip/main/netflix.sh && chmod +x netflix.sh
 
 * 2.修改netflix.sh
 
-```vi netflix.sh```
+    vi netflix.sh
 
 ```# NAME=自己定义，例如HKT,注意保留引号
 NAME="HKT"
